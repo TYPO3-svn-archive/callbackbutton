@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for plugin &quot;tx_callbackbutton_pi1&quot;</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<!--messages-->
+			<label index="failure_captcha">The security code was incorrect. Please enter it again.</label>
+			<label index="failure_countrie">At least one of the telephone numbers is for a country for which calls are blocked with this service.</label>
+			<label index="failure_format1">Telephone number(subscriber-A): Incorrect format</label> 
+			<label index="failure_format2">Telephone number(subscriber-B/alternative subscriber-B): Incorrect format</label>
+			<label index="failure_number1">Telephone number(subscriber-A): Blocked from this service</label>
+			<label index="failure_number2">Telephone number(subscriber-B/ alternative subscriber-B): Blocked from this service</label>
+			<label index="failure_blocked1">Telephone number(subscriber-A): Blocked</label>
+			<label index="failure_blocked2">Telephone number(subscriber-B/ alternative subscriber-B): Blocked</label>
+			<label index="failure_limit_hour">The maximum number of calls within an hour has been reached.</label>
+			<label index="failure_limit_day">The maximum number of calls within the day has been reached</label>
+			<label index="failure_plus">(please use the contactformular</label>
+			<label index="failure_default">An error occured when setting up the call. Please try again.</label>
+			<label index="failure_aNumber">Please enter a number</label>
+			<label index="notAllowed">The number of calls you are allowed to has been reached.</label>
+			<label index="logIn">Please log in to use the Call-Back functionality.</label>
+			<label index = 'stat_idle'> please wait....</label> 
+			<label index = 'stat_connecting'> connecting... </label> 
+			<label index = 'stat_connected'> connected </label> 
+			<label index = 'stat_disconnected'> disconnected</label> 
+			<label index = 'stat_disconnecting'> disconnecting...</label> 
+			<label index = 'stat_ringing'> ringing... </label> 
+			<label index = 'stat_default'> wait a second---</label> 
+			
+			<!--labels -->
+			<label index="label_connTime">Time of Call :</label> 
+			<label index="label_connStat">Call Status :</label> 
+			<label index="label_header"></label> 
+			<label index="label_headerTag"></label> 
+			<label index="label_headerTag_closing"></label>
+			
+			<label index="submit_stop_button_label">stop Call</label>
+			<label index="callsLeftText">Free Voice Calls left: </label>
+			<label index="buttonStart"> Start Voice Call </label>
+			<label index="buttonStop"> Stop Voice Call </label>
+			
+			
+		</languageKey>
+		<languageKey index="de" type="array"> 
+			<!--messages-->
+			<label index="failure_captcha">Der Sicherheitscode war fehlerhaft! Bitte erneut eingeben.</label>
+			<label index="failure_countrie">Mindestens eine der Rufnummern gehört zu einem Land, das für Anrufe mit diesem Dienst gesperrt ist.</label>
+			<label index="failure_format1">Rufnummer (A-Teilnehmer): Format falsch!</label> 
+			<label index="failure_format2">Rufnummer (B-Teilnehmer/Alternativer B-Teilnehmer): Format falsch!</label>
+			<label index="failure_number1">Rufnummer (A-Teilnehmer): Für diesen Dienst gesperrt!</label>
+			<label index="failure_number2">Rufnummer (B-Teilnehmer/Alternativer B-Teilnehmer): Für diesen Dienst gesperrt!</label>
+			<label index="failure_blocked1">Rufnummer (A-Teilnehmer): blockiert.</label>
+			<label index="failure_blocked2">Rufnummer (B-Teilnehmer/Alternativer B-Teilnehmer): blockiert.</label>
+			<label index="failure_limit_hour">Die Maximalanzahl der Gespräche für diese Stunde wurde erreicht!</label>
+			<label index="failure_limit_day">Die Maximalanzahl der Gespräche für heute wurde erreicht!</label>
+			<label index="failure_default">Beim Verbindungsaufbau trat ein Fehler auf. Bitte versuche es erneut.</label>
+			<label index="failure_plus">(Bitte nutze das Kontaktformular</label>
+			<label index="failure_aNumber">Bitte gib eine Nummer ein.</label>
+			<label index="notAllowed">Die Anzahl erlaubter Telefonate wurde erreicht.</label>
+			<label index="logIn">Bitte melde dich an um die Rückruf-Funktionalität zu nutzen zu nutzen.</label>
+			<label index = 'stat_idle'> bitte warten... </label> 
+			<label index = 'stat_connecting'> verbinden... </label> 
+			<label index = 'stat_connected'> verbunden </label> 
+			<label index = 'stat_disconnected'> Verbindung getrennt</label> 
+			<label index = 'stat_disconnecting'> Verbindung trennen...</label> 
+			<label index = 'stat_ringing'> es klingelt...</label> 
+			<label index = 'stat_default'> einen Moment...</label> 
+			
+			
+			<!--labels -->
+			<label index="label_connTime">Gesprächszeit :</label> 
+			<label index="label_connStat">Verbindungsstatus :</label> 
+			<label index="label_header"></label> 
+			<label index="label_headerTag"></label>
+			<label index="label_headerTag_closing"></label>
+			<label index="callsLeftText">Übrige freie Telefonate: </label>
+			<label index="buttonStart"> Starte den Voice Call </label>
+			<label index="buttonStop"> Stope den Voice Call </label>
+		
+			
+		
+		</languageKey>
+	</data>
+</T3locallang>

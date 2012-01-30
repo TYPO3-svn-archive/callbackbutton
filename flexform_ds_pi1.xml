@@ -1,0 +1,1127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3DataStructure>
+  <meta>
+	<langDisable>1</langDisable>
+  </meta>
+  <sheets>
+	<Konfiguration> 
+	  <ROOT>
+		<TCEforms>
+		  <sheetTitle>LLL:EXT:callbackbutton/locallang.xml:label.config</sheetTitle>
+		</TCEforms>
+		<type>array</type>
+		<el>
+		  <DCLogin>
+			<TCEforms>
+			  <label>LLL:EXT:callbackbutton/locallang.xml:label.DCLogin</label>
+			  <config>
+				<type>input</type>
+			  </config>
+			</TCEforms>
+		  </DCLogin>
+		  <DCPassword>
+			<TCEforms>
+			  <label>LLL:EXT:callbackbutton/locallang.xml:label.DCPassword</label>
+				<config>
+				  <type>input</type>
+				  <eval>password</eval>
+				</config>
+			</TCEforms>
+		  </DCPassword>
+		<BENumber>
+			<TCEforms>
+			  <label>LLL:EXT:callbackbutton/locallang.xml:label.BEnumber1</label>
+				<config>
+				  <type>input</type>
+				  
+				</config>
+			</TCEforms>
+		  </BENumber>
+		  <BENumberAlter>
+			<TCEforms>
+			  <label>LLL:EXT:callbackbutton/locallang.xml:label.BEnumber2</label>
+				<config>
+				  <type>input</type>
+				  
+				</config>
+			</TCEforms>
+		  </BENumberAlter>
+		  <maxDur>
+			<TCEforms>
+			  <label>LLL:EXT:callbackbutton/locallang.xml:label.maxDur</label>
+			  <config>
+				<type>input</type>
+				<eval>int</eval>
+			  </config>
+			</TCEforms>
+		  </maxDur>
+		  <maxWait>
+			<TCEforms>
+			  <label>LLL:EXT:callbackbutton/locallang.xml:label.maxWait</label>
+			  <config>
+				<type>input</type>
+				<eval>int</eval>    
+			  </config>
+			</TCEforms>
+		  </maxWait>
+		  <environment>
+			<TCEforms>
+			  <label>LLL:EXT:callbackbutton/locallang.xml:label.environment</label>
+			  <config>
+				<type>select</type>
+				  <items type="array">
+					<numIndex index="0" type="array">
+					  <!--Bezeichner-->
+					  <numIndex index="0">sandbox</numIndex>
+					  <!--Wert-->
+					  <numIndex index="1">sandbox</numIndex>
+					</numIndex>
+					<numIndex index="1" type="array">
+					  <numIndex index="0">production</numIndex>
+					  <numIndex index="1">production</numIndex>
+					</numIndex>
+					<numIndex index="2" type="array">
+					  <numIndex index="0">mock</numIndex>
+					  <numIndex index="1">mock</numIndex>
+					</numIndex>
+				  </items>
+				</config>
+			  </TCEforms>
+			</environment>
+		    <ContactLink>
+				<TCEforms>
+					<label>LLL:EXT:callbackbutton/locallang.xml:label.ContactLink</label>
+					<config>
+						<type>input</type>
+					</config>
+				</TCEforms>
+			</ContactLink>
+			<!--Countries-->
+			<countries> 
+			  <TCEforms>
+				<label>LLL:EXT:callbackbutton/locallang.xml:label.countries</label>	
+				<config>
+				  <type>select</type>
+					<items type="array">
+					<numIndex index="0" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.AF</numIndex>
+					<numIndex index="1">+93_0093</numIndex>
+					</numIndex>
+					<numIndex index="1" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.AL</numIndex>
+					<numIndex index="1">+355_00355</numIndex>
+					</numIndex>
+					<numIndex index="2" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.DZ</numIndex>
+					<numIndex index="1">+213_00213</numIndex>
+					</numIndex>
+					<numIndex index="3" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.AS</numIndex>
+					<numIndex index="1">+1684_001684</numIndex>
+					</numIndex>
+					<numIndex index="4" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.AD</numIndex>
+					<numIndex index="1">+376_00376</numIndex>
+					</numIndex>
+					<numIndex index="5" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.AO</numIndex>
+					<numIndex index="1">+244_00244</numIndex>
+					</numIndex>
+					<numIndex index="6" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.AI</numIndex>
+					<numIndex index="1">+1264_001264</numIndex>
+					</numIndex>
+					<numIndex index="7" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.AQ</numIndex>
+					<numIndex index="1">+672_00672</numIndex>
+					</numIndex>
+					<numIndex index="8" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.AG</numIndex>
+					<numIndex index="1">+1268_001268</numIndex>
+					</numIndex>
+					<numIndex index="9" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.AR</numIndex>
+					<numIndex index="1">+54_0054</numIndex>
+					</numIndex>
+					<numIndex index="10" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.AM</numIndex>
+					<numIndex index="1">+374_00374</numIndex>
+					</numIndex>
+					<numIndex index="11" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.AW</numIndex>
+					<numIndex index="1">+297_00297</numIndex>
+					</numIndex>
+					<numIndex index="12" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.AU</numIndex>
+					<numIndex index="1">+61_0061</numIndex>
+					</numIndex>
+					<numIndex index="13" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.AT</numIndex>
+					<numIndex index="1">+43_0043</numIndex>
+					</numIndex>
+					<numIndex index="14" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.AZ</numIndex>
+					<numIndex index="1">+994_00994</numIndex>
+					</numIndex>
+					<numIndex index="15" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.BS</numIndex>
+					<numIndex index="1">+1242_001242</numIndex>
+					</numIndex>
+					<numIndex index="16" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.BH</numIndex>
+					<numIndex index="1">+973_00973</numIndex>
+					</numIndex>
+					<numIndex index="17" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.BD</numIndex>
+					<numIndex index="1">+880_00880</numIndex>
+					</numIndex>
+					<numIndex index="18" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.BB</numIndex>
+					<numIndex index="1">+1246_001246</numIndex>
+					</numIndex>
+					<numIndex index="19" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.BY</numIndex>
+					<numIndex index="1">+375_00375</numIndex>
+					</numIndex>
+					<numIndex index="20" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.BE</numIndex>
+					<numIndex index="1">+32_0032</numIndex>
+					</numIndex>
+					<numIndex index="21" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.BZ</numIndex>
+					<numIndex index="1">+501_00501</numIndex>
+					</numIndex>
+					<numIndex index="22" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.BJ</numIndex>
+					<numIndex index="1">+229_00229</numIndex>
+					</numIndex>
+					<numIndex index="23" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.BM</numIndex>
+					<numIndex index="1">+1441_001441</numIndex>
+					</numIndex>
+					<numIndex index="24" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.BT</numIndex>
+					<numIndex index="1">+975_00975</numIndex>
+					</numIndex>
+					<numIndex index="25" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.BO</numIndex>
+					<numIndex index="1">+591_00591</numIndex>
+					</numIndex>
+					<numIndex index="26" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.BA</numIndex>
+					<numIndex index="1">+387_00387</numIndex>
+					</numIndex>
+					<numIndex index="27" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.BW</numIndex>
+					<numIndex index="1">+267_00267</numIndex>
+					</numIndex>
+					<numIndex index="28" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.BV</numIndex>
+					<numIndex index="1">+47_0047</numIndex>
+					</numIndex>
+					<numIndex index="29" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.BR</numIndex>
+					<numIndex index="1">+55_0055</numIndex>
+					</numIndex>
+					<numIndex index="30" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.IO</numIndex>
+					<numIndex index="1">+_00</numIndex>
+					</numIndex>
+					<numIndex index="31" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.VG</numIndex>
+					<numIndex index="1">+1284_001284</numIndex>
+					</numIndex>
+					<numIndex index="32" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.BN</numIndex>
+					<numIndex index="1">+673_00673</numIndex>
+					</numIndex>
+					<numIndex index="33" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.BG</numIndex>
+					<numIndex index="1">+359_00359</numIndex>
+					</numIndex>
+					<numIndex index="34" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.BF</numIndex>
+					<numIndex index="1">+226_00226</numIndex>
+					</numIndex>
+					<numIndex index="35" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.BI</numIndex>
+					<numIndex index="1">+257_00257</numIndex>
+					</numIndex>
+					<numIndex index="36" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.KH</numIndex>
+					<numIndex index="1">+855_00855</numIndex>
+					</numIndex>
+					<numIndex index="37" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.CM</numIndex>
+					<numIndex index="1">+237_00237</numIndex>
+					</numIndex>
+					<numIndex index="38" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.CA</numIndex>
+					<numIndex index="1">+1_001</numIndex>
+					</numIndex>
+					<numIndex index="39" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.CV</numIndex>
+					<numIndex index="1">+238_00238</numIndex>
+					</numIndex>
+					<numIndex index="40" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.KY</numIndex>
+					<numIndex index="1">+1345_001345</numIndex>
+					</numIndex>
+					<numIndex index="41" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.CF</numIndex>
+					<numIndex index="1">+236_00236</numIndex>
+					</numIndex>
+					<numIndex index="42" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.TD</numIndex>
+					<numIndex index="1">+235_00235</numIndex>
+					</numIndex>
+					<numIndex index="43" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.CL</numIndex>
+					<numIndex index="1">+56_0056</numIndex>
+					</numIndex>
+					<numIndex index="44" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.CN</numIndex>
+					<numIndex index="1">+86_0086</numIndex>
+					</numIndex>
+					<numIndex index="45" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.CX</numIndex>
+					<numIndex index="1">+61_0061</numIndex>
+					</numIndex>
+					<numIndex index="46" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.CC</numIndex>
+					<numIndex index="1">+61_0061</numIndex>
+					</numIndex>
+					<numIndex index="47" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.CO</numIndex>
+					<numIndex index="1">+57_0057</numIndex>
+					</numIndex>
+					<numIndex index="48" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.KM</numIndex>
+					<numIndex index="1">+269_00269</numIndex>
+					</numIndex>
+					<numIndex index="49" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.CD</numIndex>
+					<numIndex index="1">+243_00243</numIndex>
+					</numIndex>
+					<numIndex index="50" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.CG</numIndex>
+					<numIndex index="1">+242_00242</numIndex>
+					</numIndex>
+					<numIndex index="51" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.CK</numIndex>
+					<numIndex index="1">+682_00682</numIndex>
+					</numIndex>
+					<numIndex index="52" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.CR</numIndex>
+					<numIndex index="1">+506_00506</numIndex>
+					</numIndex>
+					<numIndex index="53" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.HR</numIndex>
+					<numIndex index="1">+385_00385</numIndex>
+					</numIndex>
+					<numIndex index="54" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.CU</numIndex>
+					<numIndex index="1">+53_0053</numIndex>
+					</numIndex>
+					<numIndex index="55" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.CY</numIndex>
+					<numIndex index="1">+357_00357</numIndex>
+					</numIndex>
+					<numIndex index="56" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.CZ</numIndex>
+					<numIndex index="1">+420_00420</numIndex>
+					</numIndex>
+					<numIndex index="57" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.DK</numIndex>
+					<numIndex index="1">+45_0045</numIndex>
+					</numIndex>
+					<numIndex index="58" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.DJ</numIndex>
+					<numIndex index="1">+253_00253</numIndex>
+					</numIndex>
+					<numIndex index="59" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.DM</numIndex>
+					<numIndex index="1">+1767_001767</numIndex>
+					</numIndex>
+					<numIndex index="60" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.DO</numIndex>
+					<numIndex index="1">+1809_001809</numIndex>
+					</numIndex>
+					<numIndex index="61" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.EC</numIndex>
+					<numIndex index="1">+593_00593</numIndex>
+					</numIndex>
+					<numIndex index="62" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.EG</numIndex>
+					<numIndex index="1">+20_0020</numIndex>
+					</numIndex>
+					<numIndex index="63" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.SV</numIndex>
+					<numIndex index="1">+503_00503</numIndex>
+					</numIndex>
+					<numIndex index="64" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.GQ</numIndex>
+					<numIndex index="1">+240_00240</numIndex>
+					</numIndex>
+					<numIndex index="65" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.ER</numIndex>
+					<numIndex index="1">+291_00291</numIndex>
+					</numIndex>
+					<numIndex index="66" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.EE</numIndex>
+					<numIndex index="1">+372_00372</numIndex>
+					</numIndex>
+					<numIndex index="67" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.ET</numIndex>
+					<numIndex index="1">+251_00251</numIndex>
+					</numIndex>
+					<numIndex index="68" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.FK</numIndex>
+					<numIndex index="1">+500_00500</numIndex>
+					</numIndex>
+					<numIndex index="69" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.FO</numIndex>
+					<numIndex index="1">+298_00298</numIndex>
+					</numIndex>
+					<numIndex index="70" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.FJ</numIndex>
+					<numIndex index="1">+679_00679</numIndex>
+					</numIndex>
+					<numIndex index="71" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.FI</numIndex>
+					<numIndex index="1">+358_00358</numIndex>
+					</numIndex>
+					<numIndex index="72" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.FR</numIndex>
+					<numIndex index="1">+33_0033</numIndex>
+					</numIndex>
+					<numIndex index="73" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.PF</numIndex>
+					<numIndex index="1">+689_00689</numIndex>
+					</numIndex>
+					<numIndex index="74" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.TF</numIndex>
+					<numIndex index="1">+569_00569</numIndex>
+					</numIndex>
+					<numIndex index="75" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.GA</numIndex>
+					<numIndex index="1">+241_00241</numIndex>
+					</numIndex>
+					<numIndex index="76" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.GM</numIndex>
+					<numIndex index="1">+220_00220</numIndex>
+					</numIndex>
+					<numIndex index="77" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.GE</numIndex>
+					<numIndex index="1">+995_00995</numIndex>
+					</numIndex>
+					<numIndex index="78" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.DE</numIndex>
+					<numIndex index="1">+49_0049</numIndex>
+					</numIndex>
+					<numIndex index="79" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.GH</numIndex>
+					<numIndex index="1">+233_00233</numIndex>
+					</numIndex>
+					<numIndex index="80" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.GI</numIndex>
+					<numIndex index="1">+350_00350</numIndex>
+					</numIndex>
+					<numIndex index="81" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.GR</numIndex>
+					<numIndex index="1">+30_0030</numIndex>
+					</numIndex>
+					<numIndex index="82" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.GL</numIndex>
+					<numIndex index="1">+299_00299</numIndex>
+					</numIndex>
+					<numIndex index="83" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.GD</numIndex>
+					<numIndex index="1">+1473_001473</numIndex>
+					</numIndex>
+					<numIndex index="84" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.GU</numIndex>
+					<numIndex index="1">+1671_001671</numIndex>
+					</numIndex>
+					<numIndex index="85" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.GT</numIndex>
+					<numIndex index="1">+502_00502</numIndex>
+					</numIndex>
+					<numIndex index="86" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.GG</numIndex>
+					<numIndex index="1">+44_0044</numIndex>
+					</numIndex>
+					<numIndex index="87" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.GN</numIndex>
+					<numIndex index="1">+224_00224</numIndex>
+					</numIndex>
+					<numIndex index="88" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.GW</numIndex>
+					<numIndex index="1">+245_00245</numIndex>
+					</numIndex>
+					<numIndex index="89" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.GY</numIndex>
+					<numIndex index="1">+592_00592</numIndex>
+					</numIndex>
+					<numIndex index="90" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.HT</numIndex>
+					<numIndex index="1">+509_00509</numIndex>
+					</numIndex>
+					<numIndex index="91" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.VA</numIndex>
+					<numIndex index="1">+39_0039</numIndex>
+					</numIndex>
+					<numIndex index="92" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.HN</numIndex>
+					<numIndex index="1">+504_00504</numIndex>
+					</numIndex>
+					<numIndex index="93" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.HK</numIndex>
+					<numIndex index="1">+852_00852</numIndex>
+					</numIndex>
+					<numIndex index="94" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.HU</numIndex>
+					<numIndex index="1">+36_0036</numIndex>
+					</numIndex>
+					<numIndex index="95" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.IS</numIndex>
+					<numIndex index="1">+354_00354</numIndex>
+					</numIndex>
+					<numIndex index="96" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.IN</numIndex>
+					<numIndex index="1">+91_0091</numIndex>
+					</numIndex>
+					<numIndex index="97" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.ID</numIndex>
+					<numIndex index="1">+62_0062</numIndex>
+					</numIndex>
+					<numIndex index="98" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.IR</numIndex>
+					<numIndex index="1">+98_0098</numIndex>
+					</numIndex>
+					<numIndex index="99" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.IQ</numIndex>
+					<numIndex index="1">+964_00964</numIndex>
+					</numIndex>
+					<numIndex index="100" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.IE</numIndex>
+					<numIndex index="1">+353_00353</numIndex>
+					</numIndex>
+					<numIndex index="101" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.IM</numIndex>
+					<numIndex index="1">+44_0044</numIndex>
+					</numIndex>
+					<numIndex index="102" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.IL</numIndex>
+					<numIndex index="1">+972_00972</numIndex>
+					</numIndex>
+					<numIndex index="103" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.IT</numIndex>
+					<numIndex index="1">+39_0039</numIndex>
+					</numIndex>
+					<numIndex index="104" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.CI</numIndex>
+					<numIndex index="1">+225_00225</numIndex>
+					</numIndex>
+					<numIndex index="105" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.JM</numIndex>
+					<numIndex index="1">+1876_001876</numIndex>
+					</numIndex>
+					<numIndex index="106" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.JP</numIndex>
+					<numIndex index="1">+81_0081</numIndex>
+					</numIndex>
+					<numIndex index="107" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.JE</numIndex>
+					<numIndex index="1">+_00</numIndex>
+					</numIndex>
+					<numIndex index="108" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.JO</numIndex>
+					<numIndex index="1">+962_00962</numIndex>
+					</numIndex>
+					<numIndex index="109" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.KZ</numIndex>
+					<numIndex index="1">+7_007</numIndex>
+					</numIndex>
+					<numIndex index="110" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.KE</numIndex>
+					<numIndex index="1">+254_00254</numIndex>
+					</numIndex>
+					<numIndex index="111" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.KI</numIndex>
+					<numIndex index="1">+686_00686</numIndex>
+					</numIndex>
+					<numIndex index="112" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.KP</numIndex>
+					<numIndex index="1">+850_00850</numIndex>
+					</numIndex>
+					<numIndex index="113" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.KR</numIndex>
+					<numIndex index="1">+82_0082</numIndex>
+					</numIndex>
+					<numIndex index="114" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.KW</numIndex>
+					<numIndex index="1">+965_00965</numIndex>
+					</numIndex>
+					<numIndex index="115" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.KG</numIndex>
+					<numIndex index="1">+996_00996</numIndex>
+					</numIndex>
+					<numIndex index="116" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.LA</numIndex>
+					<numIndex index="1">+856_00856</numIndex>
+					</numIndex>
+					<numIndex index="117" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.LV</numIndex>
+					<numIndex index="1">+371_00371</numIndex>
+					</numIndex>
+					<numIndex index="118" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.LB</numIndex>
+					<numIndex index="1">+961_00961</numIndex>
+					</numIndex>
+					<numIndex index="119" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.LS</numIndex>
+					<numIndex index="1">+266_00266</numIndex>
+					</numIndex>
+					<numIndex index="120" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.LR</numIndex>
+					<numIndex index="1">+231_00231</numIndex>
+					</numIndex>
+					<numIndex index="121" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.LY</numIndex>
+					<numIndex index="1">+218_00218</numIndex>
+					</numIndex>
+					<numIndex index="122" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.LI</numIndex>
+					<numIndex index="1">+423_00423</numIndex>
+					</numIndex>
+					<numIndex index="123" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.LT</numIndex>
+					<numIndex index="1">+370_00370</numIndex>
+					</numIndex>
+					<numIndex index="124" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.LU</numIndex>
+					<numIndex index="1">+352_00352</numIndex>
+					</numIndex>
+					<numIndex index="125" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.MO</numIndex>
+					<numIndex index="1">+853_00853</numIndex>
+					</numIndex>
+					<numIndex index="126" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.MK</numIndex>
+					<numIndex index="1">+389_00389</numIndex>
+					</numIndex>
+					<numIndex index="127" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.MG</numIndex>
+					<numIndex index="1">+261_00261</numIndex>
+					</numIndex>
+					<numIndex index="128" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.MW</numIndex>
+					<numIndex index="1">+265_00265</numIndex>
+					</numIndex>
+					<numIndex index="129" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.MY</numIndex>
+					<numIndex index="1">+60_0060</numIndex>
+					</numIndex>
+					<numIndex index="130" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.MV</numIndex>
+					<numIndex index="1">+960_00960</numIndex>
+					</numIndex>
+					<numIndex index="131" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.ML</numIndex>
+					<numIndex index="1">+223_00223</numIndex>
+					</numIndex>
+					<numIndex index="132" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.MT</numIndex>
+					<numIndex index="1">+356_00356</numIndex>
+					</numIndex>
+					<numIndex index="133" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.MH</numIndex>
+					<numIndex index="1">+692_00692</numIndex>
+					</numIndex>
+					<numIndex index="134" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.MR</numIndex>
+					<numIndex index="1">+222_00222</numIndex>
+					</numIndex>
+					<numIndex index="135" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.MU</numIndex>
+					<numIndex index="1">+230_00230</numIndex>
+					</numIndex>
+					<numIndex index="136" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.YT</numIndex>
+					<numIndex index="1">+262_00262</numIndex>
+					</numIndex>
+					<numIndex index="137" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.MX</numIndex>
+					<numIndex index="1">+52_0052</numIndex>
+					</numIndex>
+					<numIndex index="138" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.FM</numIndex>
+					<numIndex index="1">+691_00691</numIndex>
+					</numIndex>
+					<numIndex index="139" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.MD</numIndex>
+					<numIndex index="1">+373_00373</numIndex>
+					</numIndex>
+					<numIndex index="140" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.MC</numIndex>
+					<numIndex index="1">+377_00377</numIndex>
+					</numIndex>
+					<numIndex index="141" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.MN</numIndex>
+					<numIndex index="1">+976_00976</numIndex>
+					</numIndex>
+					<numIndex index="142" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.ME</numIndex>
+					<numIndex index="1">+382_00382</numIndex>
+					</numIndex>
+					<numIndex index="143" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.MS</numIndex>
+					<numIndex index="1">+1664_001664</numIndex>
+					</numIndex>
+					<numIndex index="144" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.MA</numIndex>
+					<numIndex index="1">+212_00212</numIndex>
+					</numIndex>
+					<numIndex index="145" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.MZ</numIndex>
+					<numIndex index="1">+258_00258</numIndex>
+					</numIndex>
+					<numIndex index="146" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.MM</numIndex>
+					<numIndex index="1">+95_0095</numIndex>
+					</numIndex>
+					<numIndex index="147" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.NA</numIndex>
+					<numIndex index="1">+264_00264</numIndex>
+					</numIndex>
+					<numIndex index="148" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.NR</numIndex>
+					<numIndex index="1">+674_00674</numIndex>
+					</numIndex>
+					<numIndex index="149" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.NP</numIndex>
+					<numIndex index="1">+977_00977</numIndex>
+					</numIndex>
+					<numIndex index="150" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.NL</numIndex>
+					<numIndex index="1">+31_0031</numIndex>
+					</numIndex>
+					<numIndex index="151" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.AN</numIndex>
+					<numIndex index="1">+599_00599</numIndex>
+					</numIndex>
+					<numIndex index="152" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.NC</numIndex>
+					<numIndex index="1">+687_00687</numIndex>
+					</numIndex>
+					<numIndex index="153" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.NZ</numIndex>
+					<numIndex index="1">+64_0064</numIndex>
+					</numIndex>
+					<numIndex index="154" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.NI</numIndex>
+					<numIndex index="1">+505_00505</numIndex>
+					</numIndex>
+					<numIndex index="155" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.NE</numIndex>
+					<numIndex index="1">+227_00227</numIndex>
+					</numIndex>
+					<numIndex index="156" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.NG</numIndex>
+					<numIndex index="1">+234_00234</numIndex>
+					</numIndex>
+					<numIndex index="157" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.NU</numIndex>
+					<numIndex index="1">+683_00683</numIndex>
+					</numIndex>
+					<numIndex index="158" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.NF</numIndex>
+					<numIndex index="1">+672_00672</numIndex>
+					</numIndex>
+					<numIndex index="159" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.MP</numIndex>
+					<numIndex index="1">+1670_001670</numIndex>
+					</numIndex>
+					<numIndex index="160" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.NO</numIndex>
+					<numIndex index="1">+47_0047</numIndex>
+					</numIndex>
+					<numIndex index="161" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.OM</numIndex>
+					<numIndex index="1">+968_00968</numIndex>
+					</numIndex>
+					<numIndex index="162" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.PK</numIndex>
+					<numIndex index="1">+92_0092</numIndex>
+					</numIndex>
+					<numIndex index="163" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.PW</numIndex>
+					<numIndex index="1">+680_00680</numIndex>
+					</numIndex>
+					<numIndex index="164" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.PS</numIndex>
+					<numIndex index="1">+970_00970</numIndex>
+					</numIndex>
+					<numIndex index="165" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.PA</numIndex>
+					<numIndex index="1">+507_00507</numIndex>
+					</numIndex>
+					<numIndex index="166" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.PG</numIndex>
+					<numIndex index="1">+675_00675</numIndex>
+					</numIndex>
+					<numIndex index="167" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.PY</numIndex>
+					<numIndex index="1">+595_00595</numIndex>
+					</numIndex>
+					<numIndex index="168" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.PE</numIndex>
+					<numIndex index="1">+51_0051</numIndex>
+					</numIndex>
+					<numIndex index="169" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.PH</numIndex>
+					<numIndex index="1">+63_0063</numIndex>
+					</numIndex>
+					<numIndex index="170" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.PN</numIndex>
+					<numIndex index="1">+870_00870</numIndex>
+					</numIndex>
+					<numIndex index="171" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.PL</numIndex>
+					<numIndex index="1">+48_0048</numIndex>
+					</numIndex>
+					<numIndex index="172" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.PT</numIndex>
+					<numIndex index="1">+351_00351</numIndex>
+					</numIndex>
+					<numIndex index="173" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.PR</numIndex>
+					<numIndex index="1">+1_001</numIndex>
+					</numIndex>
+					<numIndex index="174" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.QA</numIndex>
+					<numIndex index="1">+974_00974</numIndex>
+					</numIndex>
+					<numIndex index="175" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.RO</numIndex>
+					<numIndex index="1">+40_0040</numIndex>
+					</numIndex>
+					<numIndex index="176" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.RU</numIndex>
+					<numIndex index="1">+7_007</numIndex>
+					</numIndex>
+					<numIndex index="177" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.RW</numIndex>
+					<numIndex index="1">+250_00250</numIndex>
+					</numIndex>
+					<numIndex index="178" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.BL</numIndex>
+					<numIndex index="1">+590_00590</numIndex>
+					</numIndex>
+					<numIndex index="179" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.SH</numIndex>
+					<numIndex index="1">+290_00290</numIndex>
+					</numIndex>
+					<numIndex index="180" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.KN</numIndex>
+					<numIndex index="1">+1869_001869</numIndex>
+					</numIndex>
+					<numIndex index="181" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.LC</numIndex>
+					<numIndex index="1">+1758_001758</numIndex>
+					</numIndex>
+					<numIndex index="182" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.MF</numIndex>
+					<numIndex index="1">+1599_001599</numIndex>
+					</numIndex>
+					<numIndex index="183" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.PM</numIndex>
+					<numIndex index="1">+508_00508</numIndex>
+					</numIndex>
+					<numIndex index="184" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.VC</numIndex>
+					<numIndex index="1">+1784_001784</numIndex>
+					</numIndex>
+					<numIndex index="185" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.WS</numIndex>
+					<numIndex index="1">+685_00685</numIndex>
+					</numIndex>
+					<numIndex index="186" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.SM</numIndex>
+					<numIndex index="1">+378_00378</numIndex>
+					</numIndex>
+					<numIndex index="187" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.ST</numIndex>
+					<numIndex index="1">+239_00239</numIndex>
+					</numIndex>
+					<numIndex index="188" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.SA</numIndex>
+					<numIndex index="1">+966_00966</numIndex>
+					</numIndex>
+					<numIndex index="189" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.SN</numIndex>
+					<numIndex index="1">+221_00221</numIndex>
+					</numIndex>
+					<numIndex index="190" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.RS</numIndex>
+					<numIndex index="1">+381_00381</numIndex>
+					</numIndex>
+					<numIndex index="191" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.SC</numIndex>
+					<numIndex index="1">+248_00248</numIndex>
+					</numIndex>
+					<numIndex index="192" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.SL</numIndex>
+					<numIndex index="1">+232_00232</numIndex>
+					</numIndex>
+					<numIndex index="193" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.SG</numIndex>
+					<numIndex index="1">+65_0065</numIndex>
+					</numIndex>
+					<numIndex index="194" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.SK</numIndex>
+					<numIndex index="1">+421_00421</numIndex>
+					</numIndex>
+					<numIndex index="195" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.SI</numIndex>
+					<numIndex index="1">+386_00386</numIndex>
+					</numIndex>
+					<numIndex index="196" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.SB</numIndex>
+					<numIndex index="1">+677_00677</numIndex>
+					</numIndex>
+					<numIndex index="197" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.SO</numIndex>
+					<numIndex index="1">+252_00252</numIndex>
+					</numIndex>
+					<numIndex index="198" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.ZA</numIndex>
+					<numIndex index="1">+27_0027</numIndex>
+					</numIndex>
+					<numIndex index="199" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.ES</numIndex>
+					<numIndex index="1">+34_0034</numIndex>
+					</numIndex>
+					<numIndex index="200" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.LK</numIndex>
+					<numIndex index="1">+94_0094</numIndex>
+					</numIndex>
+					<numIndex index="201" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.SD</numIndex>
+					<numIndex index="1">+249_00249</numIndex>
+					</numIndex>
+					<numIndex index="202" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.SR</numIndex>
+					<numIndex index="1">+597_00597</numIndex>
+					</numIndex>
+					<numIndex index="203" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.SJ</numIndex>
+					<numIndex index="1">+_00</numIndex>
+					</numIndex>
+					<numIndex index="204" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.SZ</numIndex>
+					<numIndex index="1">+268_00268</numIndex>
+					</numIndex>
+					<numIndex index="205" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.SE</numIndex>
+					<numIndex index="1">+46_0046</numIndex>
+					</numIndex>
+					<numIndex index="206" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.CH</numIndex>
+					<numIndex index="1">+41_0041</numIndex>
+					</numIndex>
+					<numIndex index="207" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.SY</numIndex>
+					<numIndex index="1">+963_00963</numIndex>
+					</numIndex>
+					<numIndex index="208" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.TW</numIndex>
+					<numIndex index="1">+886_00886</numIndex>
+					</numIndex>
+					<numIndex index="209" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.TJ</numIndex>
+					<numIndex index="1">+992_00992</numIndex>
+					</numIndex>
+					<numIndex index="210" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.TZ</numIndex>
+					<numIndex index="1">+255_00255</numIndex>
+					</numIndex>
+					<numIndex index="211" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.TH</numIndex>
+					<numIndex index="1">+66_0066</numIndex>
+					</numIndex>
+					<numIndex index="212" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.TL</numIndex>
+					<numIndex index="1">+670_00670</numIndex>
+					</numIndex>
+					<numIndex index="213" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.TG</numIndex>
+					<numIndex index="1">+228_00228</numIndex>
+					</numIndex>
+					<numIndex index="214" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.TK</numIndex>
+					<numIndex index="1">+690_00690</numIndex>
+					</numIndex>
+					<numIndex index="215" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.TO</numIndex>
+					<numIndex index="1">+676_00676</numIndex>
+					</numIndex>
+					<numIndex index="216" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.TT</numIndex>
+					<numIndex index="1">+1868_001868</numIndex>
+					</numIndex>
+					<numIndex index="217" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.TN</numIndex>
+					<numIndex index="1">+216_00216</numIndex>
+					</numIndex>
+					<numIndex index="218" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.TR</numIndex>
+					<numIndex index="1">+90_0090</numIndex>
+					</numIndex>
+					<numIndex index="219" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.TM</numIndex>
+					<numIndex index="1">+993_00993</numIndex>
+					</numIndex>
+					<numIndex index="220" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.TC</numIndex>
+					<numIndex index="1">+1649_001649</numIndex>
+					</numIndex>
+					<numIndex index="221" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.TV</numIndex>
+					<numIndex index="1">+688_00688</numIndex>
+					</numIndex>
+					<numIndex index="222" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.UG</numIndex>
+					<numIndex index="1">+256_00256</numIndex>
+					</numIndex>
+					<numIndex index="223" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.UA</numIndex>
+					<numIndex index="1">+380_00380</numIndex>
+					</numIndex>
+					<numIndex index="224" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.AE</numIndex>
+					<numIndex index="1">+971_00971</numIndex>
+					</numIndex>
+					<numIndex index="225" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.GB</numIndex>
+					<numIndex index="1">+44_0044</numIndex>
+					</numIndex>
+					<numIndex index="226" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.US</numIndex>
+					<numIndex index="1">+1_001</numIndex>
+					</numIndex>
+					<numIndex index="227" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.UY</numIndex>
+					<numIndex index="1">+598_00598</numIndex>
+					</numIndex>
+					<numIndex index="228" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.UZ</numIndex>
+					<numIndex index="1">+998_00998</numIndex>
+					</numIndex>
+					<numIndex index="229" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.VU</numIndex>
+					<numIndex index="1">+678_00678</numIndex>
+					</numIndex>
+					<numIndex index="230" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.VE</numIndex>
+					<numIndex index="1">+58_0058</numIndex>
+					</numIndex>
+					<numIndex index="231" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.VN</numIndex>
+					<numIndex index="1">+84_0084</numIndex>
+					</numIndex>
+					<numIndex index="232" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.VI</numIndex>
+					<numIndex index="1">+1340_001340</numIndex>
+					</numIndex>
+					<numIndex index="233" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.WF</numIndex>
+					<numIndex index="1">+681_00681</numIndex>
+					</numIndex>
+					<numIndex index="234" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.EH</numIndex>
+					<numIndex index="1">+_00</numIndex>
+					</numIndex>
+					<numIndex index="235" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.YE</numIndex>
+					<numIndex index="1">+967_00967</numIndex>
+					</numIndex>
+					<numIndex index="236" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.ZM</numIndex>
+					<numIndex index="1">+260_00260</numIndex>
+					</numIndex>
+					<numIndex index="237" type="array">
+					<numIndex index="0">LLL:EXT:callbackbutton/locallang.xml:label.ZW</numIndex>
+					<numIndex index="1">+263_00263</numIndex>
+					</numIndex>
+					</items>
+					<multiple>1</multiple>
+					<size>26</size>
+					<minitems>0</minitems>
+					<maxitems>4</maxitems>
+					<selectedListStyle>width:300px</selectedListStyle>
+					<itemListStyle>width:300px</itemListStyle>
+				  </config>
+				</TCEforms>
+			  </countries>  
+			  <!--Countries End -->
+			</el>
+		  </ROOT>
+		</Konfiguration>
+  <!--Sheet zur Einstellung der Misbrauchsvermeidung in Form von Begrenzungen der Nutzung -->
+		<Limits>
+		  <ROOT>
+			<TCEforms>
+			  <sheetTitle>LLL:EXT:callbackbutton/locallang.xml:label.limit</sheetTitle>
+			</TCEforms>
+			  <type>array</type>
+			  <el>
+				<captcha>
+				  <TCEforms>
+					<label>LLL:EXT:callbackbutton/locallang.xml:label.captcha</label>
+					<config>
+					  <type>check</type>
+					</config>
+				  </TCEforms>
+				</captcha>
+				<secure>
+				  <TCEforms>
+					<label>LLL:EXT:callbackbutton/locallang.xml:label.secure</label>
+					<config>
+					  <type>check</type>
+					</config>
+				  </TCEforms>
+				</secure>
+				<timeInt>
+				  <TCEforms>
+				  <label>LLL:EXT:callbackbutton/locallang.xml:label.timeIntervall</label>
+					<config>
+					  <type>select</type>
+					  <items type="array">
+						<numIndex index="1"  type="array">
+						  <numIndex index="0">1 hour</numIndex>
+						  <numIndex index="1">0</numIndex>
+						</numIndex>
+						<numIndex index="2"  type="array">
+						  <numIndex index="0">1 day</numIndex>
+						  <numIndex index="1">1</numIndex>
+						</numIndex>
+					  </items>
+					</config>
+				  </TCEforms>
+				</timeInt>
+				<UseAmount>
+				  <TCEforms>
+					<label>LLL:EXT:callbackbutton/locallang.xml:label.use</label>
+					<config>
+					  <type>input</type>
+					<eval>num</eval>
+					</config>
+				  </TCEforms>
+				</UseAmount>
+			  </el>
+		  </ROOT>
+		</Limits>
+  </sheets>
+</T3DataStructure>

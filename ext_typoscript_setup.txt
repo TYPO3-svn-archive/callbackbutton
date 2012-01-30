@@ -1,0 +1,2 @@
+plugin.tx_callbackbutton_pi1.templateFile = EXT:callbackbutton/pi1/templates/default.xhtml
+plugin.tx_callbackbutton_pi1.activate_Jquery = 0

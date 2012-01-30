@@ -1,0 +1,74 @@
+/* 
+    Document   : class.tx_developergardenCallBackButton_pi1.css
+    Created on : 01.12.2011, 16:01:45
+    Author     : Landkommunenhippie
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+#container{
+	width: 250px; 
+	height: 150px;
+}
+
+#bs1{
+	/*background-color: green;*/	
+	/*background-image: url(../src/pics/button_start.gif);*/
+	width:350px; 
+	margin-top: 15px;	
+}
+.button{ 
+	float:left; 
+	width: 100px;
+	height:3em;
+	margin-right: 15px;
+	border: 1px dotted darkcyan ;
+	background: transparent;
+	font-size:0.7em;
+	
+	
+}
+
+ [name = callStart]{
+	
+}
+[name = callStop]{
+	
+	background-color:#EEE;
+}
+#dg_cb_info{
+	margin-top:15px;
+	font-style: italic;
+	
+}
+#zeit, #stat {
+	width:300px;
+	float:left;
+	margin-top:15px;
+}
+#timeLabel{
+	
+}
+#left {
+	width:300px;
+	float:left;
+	margin-top:15px;
+	margin-bottom:15px;
+	
+}
+#-_85{
+	text-align: center;
+	width: 215px;
+	margin-top:15px;
+}
+
+#captcha, .tx_callbackbutton_pi1-captcha{
+	margin-top:35px;
+	width:230px;
+	height: 20px;
+}
+

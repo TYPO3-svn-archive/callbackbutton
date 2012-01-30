@@ -1,0 +1,104 @@
+Callback User's Manual
+Introduction
+What das it do? 
+Die Callback-Extension erlaubt es dem Webseitenbetreiber auf einfache Weise ein Frontend-Plugin einzubinden, über das die Besucher per Mausklick telefonisch mit ihm in Verbindung treten können. Nötig dafür ist ein Account im Developer Center der Telekom mit etwas aufgeladenem Guthaben. Empfehlenswert dafür ist die Installation der sr_freecap-Extension, da diese für die Captcha-Funktionalität benötigt wird.
+Screenshots
+ 
+
+
+
+
+
+
+
+
+
+
+Users manual 
+Rufeinleitung
+Wie im Screenshot zu sehen muss der Nutzer lediglich seine Telefonnummer in das Textfeld zu schreiben. Klickt er danach auf „Start Voice Call“ wird das Telefonat zwischen dieser eingegebenen und der im Backend (siehe Konfiguration) eingegebenen Nummer eingeleitet. 
+Der Rest wird anhand der Konfiguration automatisch berechnet und erzeugt.
+Statistiken
+Innerhalb des „Usertools“-Bereiches erscheint ein neues Icon mit der Beschriftung „DG Call Back Button“. Per Klick darauf erhält man die Statistiken, die die Extension erzeugt. Darunter
+Stundenstatistik 
+zeigt die prozentuale Verteilung der Gespräche pro Stunde an. 
+Tagesstatistik
+Zeigt die Menge aller Telefonate an jedem Tag eines ausgewählten Monates 
+Dauer
+Zeigt die prozentuale Verteilung der Dauer aller Telefonate anhand der Minutenzahl (0-60)
+
+Configuration
+Die Konfiguration des Callback-Plugins ist wie der Rest simpel gehalten. Im Backend sieht man mehrere auszufüllende Felder. 
+Developer Center Login :
+der Nutzername des Developer Center Accounts, den man sich hier einrichten kann
+Developer Center Password: 
+Passwort des Developer Center Accounts
+number to be called: 
+Die Telefonnummer, welche von dem Nutzer angewählt wird
+alternative number to be called (optional): 
+zweite Nummer die vom Nutzer angewählt wird, sollte die erste nicht verfügbar sein bzw nicht reagiert werden.
+Maximum duration of voice call(optional):
+Maximaldauer des Gespräches in Sekunden
+darf die Systemgrenze von 60 Minuten (3600 Sekunden) nicht überschreiten
+maximum duration before redirection(optional):
+Dauer bis das Telefonat an die Alternativnummer weitergeleitet wird
+Environment: 
+Nutzungsumgebungen der Voicecall API des Developergarden, bei Live-Benutzung muss „production“ gewählt sein. (Für mehr Infos siehe hier oder genaueres)
+Please enter Link to supportform here (recommended): 
+Hier sollte ein Link zu einem Support-Formular oder ähnlichem stehen. Bei einem Fehler, der nicht von dem Nutzer produziert wird auf diese Webseite verwiesen (bspw Developer Center Konto nicht gedeckt oder Landesvorwahk nicht erlaubt).
+Countries
+Eine alphabetische Liste aller Länder. Die ausgewählten Länder erscheinen innerhalb der linken Liste und sind die, aus denen der Webseitenbetreiber Anrufe entgegennehmen möchte! Diese Funktion soll ungewollt hohe Kosten zu vermeiden. Hier die Preisliste(en) | Preisliste(de). 
+Im Reiter Limits findest du folgende Einstellungen:
+activate CAPTCHA : 
+aktiviert den Sicherheitscode, welcher erst eingegeben werden muss, bevor das Telefongespräch initiiert wird. Erfordert die Installation der Extension „sr_freecap“ (extensionkey, nur installieren) 
+need to login to use the call back button :
+Ist diese Funktion aktiviert, ist es nur möglich Telefongespräche zu initiieren, wenn der Nutzer eingeloggt ist. 
+Ist Voraussetzungfür eine Begrenzung möglicher Telefonate eines Users pro Stunde oder Tag.
+Time Intervalle :
+Das Zeitintervall, auf das die Anzahl der Telefonate eines Nutzers begrenzt ist.
+1 Hour ? eine Stunde
+1 Day ?  ein Tag
+calls per Intervalle: 
+Anzahl an Telefonate je gewähltem Intervall 
+Administration
+Vorbereitung
+Zu erst sollte die Extension in den Extension Manager geladen werden. Dies macht man entweder, indem man die callback.t3x Datei manuell herunter- und dann via Extensionmanager in das eigene T3-System hochlädt, oder sie direkt im Extensionmanager, bei angewählter „Import Extensions“-Ansicht unter „callback“ sucht und installiert.
+Als zweiten Schritt sollte man sich einen Account im „Developer Center“ anlegen. (registrieren). Ist dies geschehen muss man nur noch die „Voice Call API“ buchen und etwas Guthaben auf das Konto laden.
+Installation
+Ist die Extension bereits geladen geht man in die „Install Extensions“ Ansicht des Extension-Managers. Dort sucht man nach der Extension mit dem Titel „Call Back Extension of Developer Garden“ und klickt auf das Installationsicon links daneben (es sollte in „Plus“ zu erkennen sein). Die Updates der Datenbank sollten durchgeführt werden, da es sonst zu ungewünschten Exceptions kommen kann und die Statistiken nicht funktionieren.
+Einbindung im Frontend
+Abgelegt wird sie im Frontend-Plugins-Bereich. Dann erstellt man eine Seite und fügt ein neues Inhaltselement hinzu. Der Seiteninhaltstyp ist "Allgemeines Plug-In" und man wählt die Erweiterung "DG CallBack" im Dropdown-Menü. Die Erweiterungsoptionen für die Default-Sprache sollte angezeigt werden. Eine Übersetzung gibt es nur in deutsch. Eine Lokalisierung dahingehend ist wie gewohnt möglich. 
+Mehrsprachigkeit
+Für eine Erweiterung der Mehrsprachigkeit muss man die „locallang.xml“ im Ordner typo3conf/ext/callback/pi1 äquivalent zu den bereits vorhandenen Sprach-Tags anpassen. 
+Beispiel zur Erzeugung einer neuen Sprachlokalisierung
+<languageKey index="my_languageCode" type="array">
+	<!--messages-->
+	<label index="label_1">label_bsp1</label>
+	<label index="label_2">labelBsp2</label>
+	<label index="label_1">bsp3</label> 
+</languageKex>
+
+Weiterhin kann man die vorhandenen Labels entweder direkt in der Datei ändern oder sie per typoscript Template einfach neu setzen. Ich empfehle dies nur mit den statischen Labels zu machen.  Die wichtigsten sind:
+label 		? 	defaultwert
+label_connTime ? Time of Call : 
+label_connStat   ? Call Status : 
+label_header      ?  Please enter your number here
+callsLeftText 	   ? Free Voice Calls left:                                                                                                
+Alle weiteren findest du innerhalb der  typo3conf/ext/callback/pi1/locallang.xml 
+Anpassen kannst Du sie so: 
+Labelanpassung per Typoscript: 
+plugin.tx_callback_pi1._LOCAL_LANG{
+  default {
+    
+   label_header = Englischer Wert
+    
+  }
+  de{
+  
+  label_header = Deutscher Wert
+  }
+} 
+Known Problems 
+To-Do-List
+ChangeLog
+

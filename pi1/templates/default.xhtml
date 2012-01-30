@@ -1,0 +1,55 @@
+
+<html>
+	<!-- ###DEFAULT### begin -->
+	<div id="container">
+	<div id="dg_cb_info"> 
+		###MARKER_INFO###
+	</div>
+	<br />
+	
+	<b> ###MARKER_HEADER### </b>
+		<form action="###MARKER_PAGELINK###" method="POST" name="dummy">
+		
+		<input type="text" id="-_85" name="FEuserNumber" value="###MARKER_FE_NR###" /> 
+		<br />
+		
+			<div id="bs1" name="###MARKERPREFIXID###[submit_div]"> 
+			<input type = "button" name = "callStart" class="button" value ="###MARKER_BUTTON_START###" onclick =" start();" />
+			<input type = "button" name = "callStop" class="button" value ="###MARKER_BUTTON_STOP###" onclick =" stop();" />
+			</div>
+			<div id="zeit">###MARKER_CONNTIME### 
+				<span id="timeLabel"> </span>
+			</div>
+			<br/>
+			<div id="stat">###MARKER_CONNSTAT###
+				<span id="statLabel"> </span>
+			</div>
+			###MARKER_DIV_LEFT###
+			
+			
+			<span id="buff" style="display:none" > </span>
+			<input type ="hidden" name ="fake" value="###MARKER_VALUE_FAKEID###" />
+	</form>
+		
+	<div id="captcha" >
+	  <label for="###MARKERPREFIXID###_captcha_response">###MARKER_CAPTCHA###</label>
+	  <div class="###MARKERPREFIXID###-captcha">
+		###MARKER_CAPTCHA_IMAGE###<br />
+		###MARKER_CAPTCHA_CANTREAD###<br />
+		###MARKER_CAPTCHA_INSERT###
+
+		<div id="captchaInputDiv">
+		  <input id="captchaInput" type="###MARKER_VALUE_HIDDEN###" size="15" id="###MARKERPREFIXID###_captcha_response"
+		  name="###MARKERPREFIXID###[captcha_response]"
+		  title="###MARKER_CAPTCHA_FREECAPNOTICE###" value="" />
+
+		 
+		</div>
+
+	  </div>
+	  ###MARKER_CAPTCHA_ACCESS###
+	</div>
+	<br />
+</div>
+	<!-- ###DEFAULT### end -->
+</html>
